@@ -1,0 +1,13 @@
+opam-version: "1.2"
+version: "2.1.1"
+maintainer: "agarwal1975@gmail.com"
+homepage: "http://jquery.com"
+
+install: [
+  ["mkdir" jquery:lib]
+  ["cp" "dist/jquery.js" "dist/jquery.min.js" "dist/jquery.min.map" jquery:lib] 
+]
+
+remove: [
+  "rm" "-rf" jquery:lib
+]

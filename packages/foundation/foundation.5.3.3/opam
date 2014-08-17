@@ -1,0 +1,15 @@
+opam-version: "1.2"
+version: "5.3.3"
+maintainer: "agarwal1975@gmail.com"
+homepage: "http://foundation.zurb.com"
+authors: "Zurb, Inc."
+
+install: [
+  ["mkdir" foundation:lib]
+  ["cp" "-Rp" "js" foundation:lib] 
+  ["cp" "-Rp" "scss" foundation:lib] 
+]
+
+remove: [
+  "rm" "-rf" foundation:lib
+]

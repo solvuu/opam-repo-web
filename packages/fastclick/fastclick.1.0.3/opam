@@ -1,0 +1,14 @@
+opam-version: "1.2"
+version: "1.0.3"
+maintainer: "agarwal1975@gmail.com"
+authors: ["FT Labs"]
+homepage: "https://github.com/ftlabs/fastclick"
+
+install: [
+  ["mkdir" fastclick:lib]
+  ["cp" "lib/fastclick.js" fastclick:lib] 
+]
+
+remove: [
+  "rm" "-rf" fastclick:lib
+]
