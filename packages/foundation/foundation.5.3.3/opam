@@ -1,15 +1,9 @@
 opam-version: "1.2"
+name: "foundation"
 version: "5.3.3"
-maintainer: "agarwal1975@gmail.com"
 homepage: "http://foundation.zurb.com"
-authors: "Zurb, Inc."
-
-install: [
-  ["mkdir" foundation:lib]
-  ["cp" "-Rp" "js" foundation:lib] 
-  ["cp" "-Rp" "scss" foundation:lib] 
-]
-
-remove: [
-  "rm" "-rf" foundation:lib
-]
+dev-repo: "https://github.com/zurb/foundation.git"
+bug-reports: "https://github.com/zurb/foundation/issues"
+license: "MIT"
+maintainer: "Ashish Agarwal <agarwal1975@gmail.com>"
+authors: ["Zurb, Inc."]
