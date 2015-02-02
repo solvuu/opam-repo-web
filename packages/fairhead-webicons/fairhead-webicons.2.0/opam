@@ -1,0 +1,8 @@
+opam-version: "1.2"
+name: "fairhead-webicons"
+version: "2.0"
+homepage: "https://github.com/adamfairhead/webicons"
+dev-repo: "https://github.com/adamfairhead/webicons.git"
+bug-reports: "https://github.com/adamfairhead/webicons/issues"
+license: "CC-Attrib"
+maintainer: "Ashish Agarwal <agarwal1975@gmail.com>"
