@@ -1,13 +1,14 @@
 opam-version: "1.2"
+name: "modernizr"
 version: "2.8.3"
-maintainer: "agarwal1975@gmail.com"
 homepage: "http://modernizr.com/"
-
-install: [
-  ["mkdir" modernizr:lib]
-  ["cp" "modernizr.js" modernizr:lib] 
-]
-
-remove: [
-  "rm" "-rf" modernizr:lib
+dev-repo: "https://github.com/Modernizr/Modernizr.git"
+bug-reports: "https://github.com/Modernizr/Modernizr/issues"
+license: "BSD or MIT"
+tags: ["html5" "css3" "browser" "feature detection"]
+maintainer: "Ashish Agarwal <agarwal1975@gmail.com>"
+authors: [
+  "Faruk Ates"
+  "Paul Irish"
+  "Alex Sexton"
 ]
