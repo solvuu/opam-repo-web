@@ -1,5 +1,7 @@
 lib: [
-  "js/foundation/foundation.abide.js" {"js/foundation/foundation.abide.js"}                           "js/foundation/foundation.accordion.js" {"js/foundation/foundation.accordion.js"}                   "js/foundation/foundation.alert.js" {"js/foundation/foundation.alert.js"}                         
+  "js/foundation/foundation.abide.js" {"js/foundation/foundation.abide.js"}
+  "js/foundation/foundation.accordion.js" {"js/foundation/foundation.accordion.js"}
+  "js/foundation/foundation.alert.js" {"js/foundation/foundation.alert.js"}
   "js/foundation/foundation.clearing.js" {"js/foundation/foundation.clearing.js"}
   "js/foundation/foundation.dropdown.js" {"js/foundation/foundation.dropdown.js"}
   "js/foundation/foundation.equalizer.js" {"js/foundation/foundation.equalizer.js"}
@@ -18,7 +20,9 @@ lib: [
   "scss/normalize.scss" {"scss/normalize.scss"}
   "scss/foundation/_functions.scss" {"scss/foundation/_functions.scss"}
   "scss/foundation/_settings.scss" {"scss/foundation/_settings.scss"}
-  "scss/foundation/components/_accordion.scss" {"scss/foundation/components/_accordion.scss"}         "scss/foundation/components/_alert-boxes.scss" {"scss/foundation/components/_alert-boxes.scss"}     "scss/foundation/components/_block-grid.scss" {"scss/foundation/components/_block-grid.scss"}     
+  "scss/foundation/components/_accordion.scss" {"scss/foundation/components/_accordion.scss"}
+  "scss/foundation/components/_alert-boxes.scss" {"scss/foundation/components/_alert-boxes.scss"}
+  "scss/foundation/components/_block-grid.scss" {"scss/foundation/components/_block-grid.scss"}
   "scss/foundation/components/_breadcrumbs.scss" {"scss/foundation/components/_breadcrumbs.scss"}
   "scss/foundation/components/_button-groups.scss" {"scss/foundation/components/_button-groups.scss"}
   "scss/foundation/components/_buttons.scss" {"scss/foundation/components/_buttons.scss"}
