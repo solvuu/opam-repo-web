@@ -7,3 +7,9 @@ bug-reports: "https://github.com/zurb/foundation/issues"
 license: "MIT"
 maintainer: "Ashish Agarwal <agarwal1975@gmail.com>"
 authors: ["Zurb, Inc."]
+
+depends: [
+  "jquery"
+  "modernizr"
+  "fastclick"
+]
