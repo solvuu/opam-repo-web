@@ -5,5 +5,3 @@ homepage: "http://zurb.com/playground/foundation-icon-fonts-3"
 license: "MIT"
 maintainer: "Ashish Agarwal <agarwal1975@gmail.com>"
 authors: ["Zurb, Inc."]
-
-build: ["./build.sh"]
